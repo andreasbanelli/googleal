@@ -8,20 +8,33 @@
   margin-right: 20px;
 }
 
+.barre {
+font: 16px;
+line-height: 34px;
+height: 34px
+}
+
+.btn btn-light{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 50px;
+  margin-left: 50px;
+
+}
+
 .moteur{
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
   height: 600px
 }
 
-.center{
-  border: 2px solid black;
+
+.form-control {
+  margin-bottom: 20px
 }
 
 .button {
-  border: 2px solid black;
   height: 50px
 }
 
@@ -31,13 +44,36 @@
 }
 
 .footers {
-  display : flex;
-  justify-content: flex-end;
-  background-color: white;
+  margin-right: 20px;
+  list-style: none
+
 }
 
+
 .footers2 {
-  border: 2px solid black;
+  margin-right: 20px;
+
+}
+.listeRight{
   display: flex;
   justify-content: flex-end;
+list-style: none;
+}
+
+.divend {
+  display : flex;
+  justify-content: flex-end;
+}
+
+.premierEtage {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.deuxiemeEtage {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+
 }
