@@ -6,6 +6,7 @@
 
 .baby{
   margin-right: 20px;
+  list-style: none;
 }
 
 .barre {
@@ -14,13 +15,18 @@ line-height: 34px;
 height: 34px
 }
 
-.btn btn-light{
+.boutons{
   display: flex;
-  justify-content: flex-end;
-  padding-top: 50px;
-  margin-left: 50px;
+  justify-content: center;
+
 
 }
+
+ .btn-light {
+   background-color: #F6E7E4;
+ }
+
+
 
 .moteur{
   display: flex;
@@ -40,7 +46,7 @@ height: 34px
 
 .footer {
   display : flex;
-  justify-content: flex-start;
+
 }
 
 .footers {
@@ -68,12 +74,27 @@ list-style: none;
 .premierEtage {
   display: flex;
   justify-content: flex-start;
+  padding-left: 40px;
 
 }
 
 .deuxiemeEtage {
   display: flex;
   justify-content: space-between;
-  margin-right: 20px;
 
+
+
+}
+
+.premierEtage,.deuxiemeEtage {
+  border-width:1px;
+  border-style:solid;
+  border-color: #EDE7E5;
+  background-color: #F6E7E4;
+}
+footer {
+  border-width:1px;
+  border-style:solid;
+  background-color: #F6E7E4;
+border-color: #EDE7E5;
 }
